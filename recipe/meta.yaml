@@ -1,13 +1,13 @@
 {% set name = "skyllh" %}
-{% set version = "24.1.0" %}
+{% set version = "26.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/skyllh-{{ version }}.tar.gz
-  sha256: 60d969fcd38bd7b832a7b0374da8d39a0bcef5a7dbde63c9d9afc8986e3c1b36
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/skyllh-{{ version }}.tar.gz
+  sha256: 514280b7177bc93a56fdb9722fde5e7189a7490464aac94b0d430e1d12e1a5d2
 
 build:
   noarch: python
@@ -38,7 +38,8 @@ test:
 
 about:
   home: https://github.com/icecube/skyllh
-  summary: The SkyLLH framework is an open-source Python3-based package licensed under the GPLv3 license. It provides a modular framework for implementing custom likelihood functions and executing log-likelihood ratio hypothesis tests. The idea is to provide a class structure tied to the mathematical objects of the likelihood functions.
+  summary: The SkyLLH framework is an open-source Python3-based package licensed under the GPLv3 license. It provides a modular framework for implementing custom likelihood functions and executing log-likelihood ratio hypothesis tests. The idea is to provide a class structure tied to the mathematical objects of the 
+    likelihood functions.
   license: GPL-3.0-only
   license_file: LICENSE.txt
 
