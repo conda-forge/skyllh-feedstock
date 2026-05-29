@@ -24,7 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - astropy-base >=7.0
-    - matplotlib
+    - matplotlib-base
     - numpy
     - pyyaml
     - scipy
