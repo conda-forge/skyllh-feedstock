@@ -1,6 +1,5 @@
 {% set name = "skyllh" %}
 {% set version = "26.1.0" %}
-{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -27,7 +26,7 @@ requirements:
     - matplotlib-base
     - numpy
     - pyyaml
-    - scipy
+    - scipy <1.18
     - tqdm
 
 test:
