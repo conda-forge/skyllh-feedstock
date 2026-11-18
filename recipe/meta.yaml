@@ -1,5 +1,5 @@
 {% set name = "skyllh" %}
-{% set version = "26.1.0" %}
+{% set version = "26.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/skyllh-{{ version }}.tar.gz
-  sha256: 51974a62cb87d2aad071175e80ab5d79d3437357cb52e5d0f0762cb7a5587d8b
+  sha256: 7030cfce332fc4baa8fe42de2e4ebb4747e38975bc8d00e38eedf1590d64d6ed
 
 build:
   noarch: python
